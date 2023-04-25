@@ -11,6 +11,8 @@
 		30227A6D29F8358200891754 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30227A6C29F8358200891754 /* ContentView.swift */; };
 		30227A6F29F8358400891754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30227A6E29F8358400891754 /* Assets.xcassets */; };
 		30227A7229F8358400891754 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30227A7129F8358400891754 /* Preview Assets.xcassets */; };
+		30227A7B29F8363F00891754 /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30227A7A29F8363F00891754 /* AddAssignmentView.swift */; };
+		30227A7D29F8365800891754 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30227A7C29F8365800891754 /* AssignmentList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		30227A6C29F8358200891754 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30227A6E29F8358400891754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30227A7129F8358400891754 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30227A7A29F8363F00891754 /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
+		30227A7C29F8365800891754 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		30227A5E29F8358200891754 = {
 			isa = PBXGroup;
 			children = (
+				30227A7A29F8363F00891754 /* AddAssignmentView.swift */,
+				30227A7C29F8365800891754 /* AssignmentList.swift */,
 				30227A6929F8358200891754 /* AssignmentNotebookRedo */,
 				30227A6829F8358200891754 /* Products */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30227A7D29F8365800891754 /* AssignmentList.swift in Sources */,
+				30227A7B29F8363F00891754 /* AddAssignmentView.swift in Sources */,
 				30227A6D29F8358200891754 /* ContentView.swift in Sources */,
 				30227A6B29F8358200891754 /* AssignmentNotebookRedoApp.swift in Sources */,
 			);
